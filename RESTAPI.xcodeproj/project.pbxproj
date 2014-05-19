@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABC1FE91929C5C900CB3A1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABC1FE81929C5C900CB3A1F /* Foundation.framework */; };
+		CABC1FEB1929C5C900CB3A1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABC1FEA1929C5C900CB3A1F /* CoreGraphics.framework */; };
+		CABC1FED1929C5C900CB3A1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABC1FEC1929C5C900CB3A1F /* UIKit.framework */; };
+		CABC1FF31929C5C900CB3A1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CABC1FF11929C5C900CB3A1F /* InfoPlist.strings */; };
+		CABC1FF51929C5C900CB3A1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CABC1FF41929C5C900CB3A1F /* main.m */; };
+		CABC1FF91929C5C900CB3A1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CABC1FF81929C5C900CB3A1F /* AppDelegate.m */; };
+		CABC1FFC1929C5C900CB3A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABC1FFA1929C5C900CB3A1F /* Main.storyboard */; };
+		CABC1FFF1929C5C900CB3A1F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABC1FFE1929C5C900CB3A1F /* MasterViewController.m */; };
+		CABC20021929C5C900CB3A1F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABC20011929C5C900CB3A1F /* DetailViewController.m */; };
+		CABC20041929C5C900CB3A1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABC20031929C5C900CB3A1F /* Images.xcassets */; };
+		CABC200B1929C5C900CB3A1F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABC200A1929C5C900CB3A1F /* XCTest.framework */; };
+		CABC200C1929C5C900CB3A1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABC1FE81929C5C900CB3A1F /* Foundation.framework */; };
+		CABC200D1929C5C900CB3A1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABC1FEC1929C5C900CB3A1F /* UIKit.framework */; };
+		CABC20151929C5C900CB3A1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CABC20131929C5C900CB3A1F /* InfoPlist.strings */; };
+		CABC20171929C5C900CB3A1F /* RESTAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABC20161929C5C900CB3A1F /* RESTAPITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CABC200E1929C5C900CB3A1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABC1FDD1929C5C900CB3A1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABC1FE41929C5C900CB3A1F;
+			remoteInfo = RESTAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CABC1FE51929C5C900CB3A1F /* RESTAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESTAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABC1FE81929C5C900CB3A1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CABC1FEA1929C5C900CB3A1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CABC1FEC1929C5C900CB3A1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CABC1FF01929C5C900CB3A1F /* RESTAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RESTAPI-Info.plist"; sourceTree = "<group>"; };
+		CABC1FF21929C5C900CB3A1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CABC1FF41929C5C900CB3A1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CABC1FF61929C5C900CB3A1F /* RESTAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RESTAPI-Prefix.pch"; sourceTree = "<group>"; };
+		CABC1FF71929C5C900CB3A1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CABC1FF81929C5C900CB3A1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CABC1FFB1929C5C900CB3A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABC1FFD1929C5C900CB3A1F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CABC1FFE1929C5C900CB3A1F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CABC20001929C5C900CB3A1F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CABC20011929C5C900CB3A1F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CABC20031929C5C900CB3A1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CABC20091929C5C900CB3A1F /* RESTAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESTAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABC200A1929C5C900CB3A1F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CABC20121929C5C900CB3A1F /* RESTAPITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RESTAPITests-Info.plist"; sourceTree = "<group>"; };
+		CABC20141929C5C900CB3A1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CABC20161929C5C900CB3A1F /* RESTAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RESTAPITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABC1FE21929C5C900CB3A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABC1FEB1929C5C900CB3A1F /* CoreGraphics.framework in Frameworks */,
+				CABC1FED1929C5C900CB3A1F /* UIKit.framework in Frameworks */,
+				CABC1FE91929C5C900CB3A1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABC20061929C5C900CB3A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABC200B1929C5C900CB3A1F /* XCTest.framework in Frameworks */,
+				CABC200D1929C5C900CB3A1F /* UIKit.framework in Frameworks */,
+				CABC200C1929C5C900CB3A1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CABC1FDC1929C5C900CB3A1F = {
+			isa = PBXGroup;
+			children = (
+				CABC1FEE1929C5C900CB3A1F /* RESTAPI */,
+				CABC20101929C5C900CB3A1F /* RESTAPITests */,
+				CABC1FE71929C5C900CB3A1F /* Frameworks */,
+				CABC1FE61929C5C900CB3A1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABC1FE61929C5C900CB3A1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABC1FE51929C5C900CB3A1F /* RESTAPI.app */,
+				CABC20091929C5C900CB3A1F /* RESTAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABC1FE71929C5C900CB3A1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CABC1FE81929C5C900CB3A1F /* Foundation.framework */,
+				CABC1FEA1929C5C900CB3A1F /* CoreGraphics.framework */,
+				CABC1FEC1929C5C900CB3A1F /* UIKit.framework */,
+				CABC200A1929C5C900CB3A1F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CABC1FEE1929C5C900CB3A1F /* RESTAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CABC1FF71929C5C900CB3A1F /* AppDelegate.h */,
+				CABC1FF81929C5C900CB3A1F /* AppDelegate.m */,
+				CABC1FFA1929C5C900CB3A1F /* Main.storyboard */,
+				CABC1FFD1929C5C900CB3A1F /* MasterViewController.h */,
+				CABC1FFE1929C5C900CB3A1F /* MasterViewController.m */,
+				CABC20001929C5C900CB3A1F /* DetailViewController.h */,
+				CABC20011929C5C900CB3A1F /* DetailViewController.m */,
+				CABC20031929C5C900CB3A1F /* Images.xcassets */,
+				CABC1FEF1929C5C900CB3A1F /* Supporting Files */,
+			);
+			path = RESTAPI;
+			sourceTree = "<group>";
+		};
+		CABC1FEF1929C5C900CB3A1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CABC1FF01929C5C900CB3A1F /* RESTAPI-Info.plist */,
+				CABC1FF11929C5C900CB3A1F /* InfoPlist.strings */,
+				CABC1FF41929C5C900CB3A1F /* main.m */,
+				CABC1FF61929C5C900CB3A1F /* RESTAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CABC20101929C5C900CB3A1F /* RESTAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				CABC20161929C5C900CB3A1F /* RESTAPITests.m */,
+				CABC20111929C5C900CB3A1F /* Supporting Files */,
+			);
+			path = RESTAPITests;
+			sourceTree = "<group>";
+		};
+		CABC20111929C5C900CB3A1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CABC20121929C5C900CB3A1F /* RESTAPITests-Info.plist */,
+				CABC20131929C5C900CB3A1F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABC1FE41929C5C900CB3A1F /* RESTAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABC201A1929C5C900CB3A1F /* Build configuration list for PBXNativeTarget "RESTAPI" */;
+			buildPhases = (
+				CABC1FE11929C5C900CB3A1F /* Sources */,
+				CABC1FE21929C5C900CB3A1F /* Frameworks */,
+				CABC1FE31929C5C900CB3A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESTAPI;
+			productName = RESTAPI;
+			productReference = CABC1FE51929C5C900CB3A1F /* RESTAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CABC20081929C5C900CB3A1F /* RESTAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABC201D1929C5C900CB3A1F /* Build configuration list for PBXNativeTarget "RESTAPITests" */;
+			buildPhases = (
+				CABC20051929C5C900CB3A1F /* Sources */,
+				CABC20061929C5C900CB3A1F /* Frameworks */,
+				CABC20071929C5C900CB3A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABC200F1929C5C900CB3A1F /* PBXTargetDependency */,
+			);
+			name = RESTAPITests;
+			productName = RESTAPITests;
+			productReference = CABC20091929C5C900CB3A1F /* RESTAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABC1FDD1929C5C900CB3A1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					CABC20081929C5C900CB3A1F = {
+						TestTargetID = CABC1FE41929C5C900CB3A1F;
+					};
+				};
+			};
+			buildConfigurationList = CABC1FE01929C5C900CB3A1F /* Build configuration list for PBXProject "RESTAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABC1FDC1929C5C900CB3A1F;
+			productRefGroup = CABC1FE61929C5C900CB3A1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABC1FE41929C5C900CB3A1F /* RESTAPI */,
+				CABC20081929C5C900CB3A1F /* RESTAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABC1FE31929C5C900CB3A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABC20041929C5C900CB3A1F /* Images.xcassets in Resources */,
+				CABC1FF31929C5C900CB3A1F /* InfoPlist.strings in Resources */,
+				CABC1FFC1929C5C900CB3A1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABC20071929C5C900CB3A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABC20151929C5C900CB3A1F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABC1FE11929C5C900CB3A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABC1FF91929C5C900CB3A1F /* AppDelegate.m in Sources */,
+				CABC1FFF1929C5C900CB3A1F /* MasterViewController.m in Sources */,
+				CABC1FF51929C5C900CB3A1F /* main.m in Sources */,
+				CABC20021929C5C900CB3A1F /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABC20051929C5C900CB3A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABC20171929C5C900CB3A1F /* RESTAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CABC200F1929C5C900CB3A1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABC1FE41929C5C900CB3A1F /* RESTAPI */;
+			targetProxy = CABC200E1929C5C900CB3A1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CABC1FF11929C5C900CB3A1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABC1FF21929C5C900CB3A1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CABC1FFA1929C5C900CB3A1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABC1FFB1929C5C900CB3A1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABC20131929C5C900CB3A1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABC20141929C5C900CB3A1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABC20181929C5C900CB3A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CABC20191929C5C900CB3A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABC201B1929C5C900CB3A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RESTAPI/RESTAPI-Prefix.pch";
+				INFOPLIST_FILE = "RESTAPI/RESTAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CABC201C1929C5C900CB3A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RESTAPI/RESTAPI-Prefix.pch";
+				INFOPLIST_FILE = "RESTAPI/RESTAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CABC201E1929C5C900CB3A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RESTAPI.app/RESTAPI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RESTAPI/RESTAPI-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RESTAPITests/RESTAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CABC201F1929C5C900CB3A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RESTAPI.app/RESTAPI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RESTAPI/RESTAPI-Prefix.pch";
+				INFOPLIST_FILE = "RESTAPITests/RESTAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABC1FE01929C5C900CB3A1F /* Build configuration list for PBXProject "RESTAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABC20181929C5C900CB3A1F /* Debug */,
+				CABC20191929C5C900CB3A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABC201A1929C5C900CB3A1F /* Build configuration list for PBXNativeTarget "RESTAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABC201B1929C5C900CB3A1F /* Debug */,
+				CABC201C1929C5C900CB3A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CABC201D1929C5C900CB3A1F /* Build configuration list for PBXNativeTarget "RESTAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABC201E1929C5C900CB3A1F /* Debug */,
+				CABC201F1929C5C900CB3A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABC1FDD1929C5C900CB3A1F /* Project object */;
+}
